@@ -231,16 +231,21 @@
 /* donate style */
 .donate{
 
-    margin: auto;
+    
     width: 1600px;
     height: 500px;
 
 
 }
 .donate-container{
+   
+}
+
+.donate{
+
     display:flex;
     justify-content: space-around;
+    margin: auto;
+
 }
-.tex-areaa{
-    position: relative;
-}
+
