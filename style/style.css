@@ -1,9 +1,7 @@
 /* navvar styles */
 .navvar{
     display: flex;
-    justify-content: space-around;
-   
-   
+    justify-content: space-around; 
 }
 .nav-title{
     font-size: 32px;
@@ -18,9 +16,7 @@
     border: 1px solid blue;
     border-radius: 5px;
     border: 1px solid rgb(0, 106, 80);
-    margin: 20px;
-
-    
+    margin: 20px;   
 }
 /* banner style */
 .banner-container{
@@ -34,20 +30,9 @@
     background-repeat: no-repeat;
     background-position: right center;
     align-items: center;
-    border: 1px solid;
+    border:none;
     border-radius: 15px;
-    
-
 }
-.banner-content{
-   
-    
-}
-
-
-
-
-
 .banner-sub-title{
     padding-left: 25px;
     color: #695e5e;
@@ -69,43 +54,57 @@
     margin-left: 20px;
     font-weight: 600;
     font-size: 18px;
-
-
 }
 /* bangladesh style */
 .bangladesh-20{
     margin: auto;
     width: 1600px;
     height: 500px;
+    padding-top: 50px;
 }
 
-
+.bd-20-title{
+    font-weight: bold;
+    font-size: 40px;
+}
 .bangladesh-20-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 10px;
 }
+.bd-description{
+    font-weight: 300;
+    font-size: 24px;
+}
+.bd-title{
+    font-weight: bold;
+    font-size: 20px;
+}
 .box1{
-    border: 1px solid white;
+    border: 1px solid rgb(228, 223, 223);
     background-color: azure;
-    border-radius: 5px;
+    border-radius: 15px;
+    padding-left: 15px;
     
 }
 .box2{
-    border: 1px solid white;
+    border: 1px solid rgb(228, 223, 223);
     background-color: azure;
-    border-radius: 5px;
+    border-radius: 15px;
+    padding-left: 15px;
 }
 .box3{
-    border: 1px solid white;
+    border: 1px solid rgb(228, 223, 223);
     background-color: azure;
-    border-radius: 5px;
+    border-radius: 15px;
+    padding-left: 15px;
 }
 .box4{
-    border: 1px solid white;
+    border: 1px solid rgb(228, 223, 223);
     background-color: azure;
-    border-radius: 5px;
+    border-radius: 15px;
+    padding-left: 15px;
 
 }
 /* vision style */
@@ -114,10 +113,16 @@
     margin: auto;
     width: 1600px;
     height: 500px;
+
+}
+.title{
+    font-weight: bold;
+    font-size: 40px;
+}
+.v-description{
+    font-weight: 300;
+    font-size: 16px;
    
-    
-
-
 }
 
 .vision-container{
@@ -127,40 +132,25 @@
     align-items: center;
     gap: 10px;
     
-    
-
 }
-
-
-
-
-
-
 
 .vision-1{
     border: 1px solid white;
-    
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: #5490F5;
-    
-    
-
 }
 
 
 .vision-2{
     border: 1px solid white;
-    
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: #C6E4D6;
 
 }
 
-
 .vision-3{
     border: 1px solid white;
-    
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: #F7EBCF;
 
 }
@@ -174,35 +164,82 @@
 .learn-btn{
     background-color: #5490F5;
     color: white;
-    padding-left: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
 }
 /*  advisor younus style */
 .advisor{
     margin: auto;
     width: 1600px;
     height: 500px;
+    background-color: gray;
+    text-align: left;
+    padding-left: 30px;
+    border-radius: 15px;
+
+    
 }
 
-/* news style */
+.advisor-description{
+    font-weight: 300;
+    font-size: 16px;
+}
+.advisor-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+.advisor-subtitle{
+    font-weight: 300;
+    font-size: 16px;
+}
 
+
+/* news style */
+.img-1{
+    padding-left: 30px;
+    border: 1px solid;
+    border-radius: 12px;
+}
+.img-2{
+    padding-right: 30px;
+    border: 1px solid;
+    border-radius: 12px;
+}
+.news-content-2{
+    padding-left: 20px;
+}
 .news{
 
     margin: auto;
     width: 1600px;
     height: 500px;
-
-
+   
+}
+.news-title{
+    font-weight: bold;
+    font-size: 40px;
+}
+.news-descrtion{
+    font-weight: 300;
+    font-size: 16px;
+}
+.news-2-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.news-2-sub-title news-2-description{
+    font-weight: 300;
+    font-size: 20px;
+}
+.read-btn{
+    color: #FFFFFF;
+    background-color: #006A50;
+    padding: 15px;
+    border-radius: 7px;
 }
 
-.news-container{
-
-    
-
-
-}
 .news-1{
 
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -211,9 +248,7 @@
     margin-bottom: 40px;
     background-color: (255, 255, 255);
     border: 1px solid;
-    border-radius: 24px;
-
-    
+    border-radius: 25px;
 
 }
 .news-2{
@@ -225,7 +260,7 @@
     margin-bottom: 40px;
     background-color: rgb(255, 255, 255);
     border: 1px solid;
-    border-radius: 24px;
+    border-radius: 25px;
 
 }
 /* donate style */
@@ -235,7 +270,6 @@
     width: 1600px;
     height: 500px;
 
-
 }
 .donate-container{
    
@@ -244,14 +278,19 @@
 .donate{
     margin: auto;
 
-  
-
 }
 .donate-title{
     text-align: center;
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 40px;
+
 }
 .donate-description{
     text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: #0E0E0E;
 }
 .donate-buttons{
 
@@ -261,7 +300,6 @@
     text-align: center;
     padding: 25px;
    gap: 10px;
-   
 
 }
 .donate-button{
@@ -316,3 +354,6 @@
 .subs-btn{
     background-color: #006A50;
 }
+
+/* footer style */
+
