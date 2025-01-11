@@ -356,6 +356,13 @@
 .subs-btn{
     background-color: #006A50;
 }
+input[type="text"] {
+
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
 
 
 
