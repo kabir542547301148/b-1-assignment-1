@@ -336,6 +336,7 @@
 .other{
     padding: 30px;
     border: 1px solid blueviolet;
+    background-color: white;
 
 }
 .newsletter{
@@ -355,5 +356,5 @@
     background-color: #006A50;
 }
 
-/* footer style */
+
 
