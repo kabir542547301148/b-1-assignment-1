@@ -242,10 +242,77 @@
 }
 
 .donate{
+    margin: auto;
+
+  
+
+}
+.donate-title{
+    text-align: center;
+}
+.donate-description{
+    text-align: center;
+}
+.donate-buttons{
 
     display:flex;
     justify-content: space-around;
     margin: auto;
+    text-align: center;
+    padding: 25px;
+   gap: 10px;
+   
 
 }
+.donate-button{
 
+    border: 1px solid blueviolet;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+#donate-button-c{
+    background-color: #C6E4D6;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+ #dont{
+    background-color: #5490F5;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+ }
+
+
+
+.amount{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px;
+    
+}
+.other{
+    padding: 30px;
+    border: 1px solid blueviolet;
+
+}
+.newsletter{
+    margin: auto;
+    text-align: center;
+    background-color: #C6E4D6;
+}
+#text{
+
+ border: 1px solid blueviolet;
+ width: 70%;
+ border-radius: 1opx;
+
+
+}
+.subs-btn{
+    background-color: #006A50;
+}
